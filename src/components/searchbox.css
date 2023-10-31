@@ -1,0 +1,23 @@
+.output {
+  margin-top: 20px;
+}
+
+.output ul {
+  list-style: none;
+  padding: 0;
+}
+
+.output li {
+  margin-bottom: 10px;
+  background-color: #f7f7f7;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+}
