@@ -1,0 +1,27 @@
+/* app.css */
+
+body {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  max-width: 400px;
+  text-align: center;
+  transition: transform 0.3s; /* Add a transform transition for hover effect */
+}
+
+/* Apply hover effect on the container */
+.container:hover {
+  transform: scale(1.02); /* Slightly scale up on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance the box shadow on hover */
+}
+
